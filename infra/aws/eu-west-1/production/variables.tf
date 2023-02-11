@@ -1,6 +1,6 @@
 variable "aws_region" {
   type    = string
-  default = "eu-west-1"
+  default = "us-east-2"
 }
 
 variable "environment_name" {
@@ -60,12 +60,12 @@ variable "ecs_tg_healthcheck_endpoint" {
 
 variable "github_username" {
   type    = string
-  default = "ruanbekker"
+  default = "eltondobemcontabilidade"
 }
 
 variable "github_repo_name" {
   type    = string
-  default = "aws-terraform-cicd-java-springboot"
+  default = "api_demo"
 }
 
 variable "github_branch" {
